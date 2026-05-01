@@ -1,0 +1,130 @@
+.iframe-wrapper{
+  background-color:rgb(255, 250, 227);
+  background-position-x:0%;
+  background-position-y:0%;
+  background-attachment:scroll;
+  background-size:auto;
+  background-origin:padding-box;
+  background-clip:border-box;
+}
+html{
+  background-color:rgb(255, 250, 227);
+}
+body{
+  background-color:rgb(255, 250, 227);
+  text-align:center;
+}
+a{
+  color:rgb(187, 0, 0);
+}
+a:hover{
+  color:rgb(41, 38, 38);
+}
+.nav-link{
+  color:rgb(0, 0, 0) !important;
+  background-color:white;
+  background:none;
+}
+.nav-link:hover{
+  color:rgb(242, 158, 8) !important;
+}
+.link-clean{
+  text-decoration-color:currentcolor;
+  text-decoration-line:none;
+  text-decoration-style:solid;
+  margin-top:16px;
+  margin-bottom:16px;
+}
+.link-social{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:16px;
+  margin-left:0px;
+}
+.btn{
+  background-color:rgb(242, 158, 8);
+  font-weight:700;
+}
+.btn:hover{
+  background-color:rgb(68, 64, 74) !important;
+}
+.navbar{
+  background-color:rgb(223, 219, 199);
+  background-position-x:0%;
+  background-position-y:0%;
+  background-size:auto;
+  background-origin:padding-box;
+  background-clip:border-box;
+}
+.img-thumbnail{
+  height:200px;
+  width:auto;
+}
+.logo_expanded{
+  max-width:80vw;
+  height:auto;
+  margin-bottom:24px;
+}
+.list-group-item{
+  background-color:rgb(242, 158, 8);
+}
+.box-alert{
+  background-color:white;
+}
+.title-alert{
+  text-decoration-color:currentcolor;
+  text-decoration-line:underline;
+  text-decoration-style:solid;
+}
+.parallax{
+  min-height:500px;
+  background-color:rgba(0, 0, 0, 0) !important;
+  background-position-x:0% !important;
+  background-position-y:0% !important;
+  background-repeat:repeat !important;
+  background-attachment:scroll !important;
+  background-size:auto !important;
+  background-origin:padding-box !important;
+  background-clip:border-box !important;
+  background-image:url("../media/zines.jpg");
+}
+.parallax-content{
+  height:200px;
+  margin-top:150px;
+}
+.border{
+  border-top-width:2px;
+  border-top-style:solid;
+  border-top-color:rgb(0, 0, 0);
+  border-right-width:2px;
+  border-right-style:solid;
+  border-right-color:rgb(0, 0, 0);
+  border-bottom-width:2px;
+  border-bottom-style:solid;
+  border-bottom-color:rgb(0, 0, 0);
+  border-left-width:2px;
+  border-left-style:solid;
+  border-left-color:rgb(0, 0, 0);
+}
+.footer-link{
+  background-color:white;
+}
+.footer-link:hover{
+  color:rgb(242, 158, 8);
+}
+.square{
+  width:64px;
+  height:64px;
+}
+.nav-link.active{
+  background:none;
+}
+.bold{
+  font-weight:800;
+}
+@media (max-width: 480px){
+  .navbar{
+	display:flex;
+  }
+}
+
