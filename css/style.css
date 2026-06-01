@@ -71,6 +71,9 @@ a:hover{
 .box-alert{
   background-color:white;
 }
+.blurb{
+  margin:0 4vw 8px 4vw;
+}
 .title-alert{
   text-decoration-color:currentcolor;
   text-decoration-line:underline;
